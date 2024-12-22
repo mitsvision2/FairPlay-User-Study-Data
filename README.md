@@ -1,4 +1,4 @@
-# FairPlay User Study Data
+# FairPlay User Study Data: Consensus-Driven Data Debiasing for Hiring Decisions
 
 This repository contains the **FairPlay User Study Dataset**, which has been made publicly available to support transparency and reproducibility in research. The dataset is a part of the FairPlay project, a tool designed for collaborative debiasing and fairness exploration in datasets.
 
