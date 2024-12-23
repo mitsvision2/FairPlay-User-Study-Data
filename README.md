@@ -4,9 +4,11 @@ This repository contains the **FairPlay User Study Dataset**, which has been mad
 
 ## Contents
 
-- `fairplay_user_study_data.csv`: The main dataset collected during user studies.
-- `README.md`: Overview of the dataset and its intended use.
-
+- `Fairplay.zip`: A compressed folder containing three subfolders, each corresponding to a user study. Each subfolder contains a separate CSV file for each FairPlay round.
+  - **Userstudy 1**: User Study 1 with its corresponding CSV files for each round.
+  - **Userstudy 2**: User Study 2 with its corresponding CSV files for each round.
+  - **Userstudy 3**: User Study 3 with its corresponding CSV files for each round.
+  
 ## Description
 
 The dataset includes anonymized user study data used for analyzing collaborative fairness workflows. The data is structured to facilitate research and analysis for applications such as:
