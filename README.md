@@ -62,7 +62,7 @@ url={https://openreview.net/forum?id=7StJj749GW}
 ## Dataset Citation
 
 ```bibtex
-@misc{kaggle_fairplay,
+@misc{data_fairplay,
 author = {Behzad, Tina and Singh, Mithilesh Kumar and Ripa, Anthony J. and Mueller, Klaus},
 title = {FairPlay Dataset: Consensus-Driven Data Debiasing for Hiring Decisions},
 year = {2024},
