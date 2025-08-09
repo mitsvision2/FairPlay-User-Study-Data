@@ -1,4 +1,4 @@
-# FairPlay User Study Data: Consensus-Driven Data Debiasing for Hiring Decisions
+# FairPlay Dataset: Consensus-Driven Data Debiasing for Hiring Decisions
 
 This repository contains the **FairPlay User Study Dataset**, which has been made publicly available to support transparency and reproducibility in research. The dataset is a part of the FairPlay project, a tool designed for collaborative debiasing and fairness exploration in datasets.
 
@@ -15,15 +15,36 @@ The dataset includes anonymized user study data used for analyzing collaborative
 - Collaborative fairness evaluation.
 - Stakeholder interactions in AI model development.
 
-## Usage
+# Attribution
 
-This dataset is publicly available under the [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).  
-You are free to:
-- **Share** — copy and redistribute the material in any medium or format.
-- **Adapt** — remix, transform, and build upon the material for any purpose, even commercially.  
+If you use this dataset in your research or projects, please cite the following papers and dataset:
 
-### Attribution
-If you use this dataset in your research or projects, please cite the following paper:
+## Main Journal Publication
+
+```bibtex
+@article{10.1145/3710982,
+author = {Behzad, Tina and Singh, Mithilesh Kumar and Ripa, Anthony J. and Mueller, Klaus},
+title = {FairPlay: A Collaborative Approach to Mitigate Bias in Datasets for Improved AI Fairness},
+year = {2025},
+issue_date = {May 2025},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {9},
+number = {2},
+url = {https://doi.org/10.1145/3710982},
+doi = {10.1145/3710982},
+abstract = {The issue of fairness in decision-making is a critical one, especially given the variety of stakeholder demands for differing and mutually incompatible versions of fairness. Adopting a strategic interaction of perspectives provides an alternative to enforcing a singular standard of fairness. We present a web-based software application, FairPlay, that enables multiple stakeholders to debias datasets collaboratively. With FairPlay, users can negotiate and arrive at a mutually acceptable outcome without a universally agreed-upon theory of fairness. In the absence of such a tool, reaching a consensus would be highly challenging due to the lack of a systematic negotiation process and the inability to modify and observe changes. We have conducted user studies that demonstrate the success of FairPlay, as users could reach a consensus within about five rounds of gameplay, illustrating the application's potential for enhancing fairness in AI systems.},
+journal = {Proc. ACM Hum.-Comput. Interact.},
+month = may,
+articleno = {CSCW084},
+numpages = {30},
+keywords = {bias, causal networks, datasets, fairness}
+}
+```
+
+---
+
+## Workshop Paper
 
 ```bibtex
 @inproceedings{
@@ -34,3 +55,18 @@ booktitle={Pluralistic Alignment Workshop at NeurIPS 2024},
 year={2024},
 url={https://openreview.net/forum?id=7StJj749GW}
 }
+```
+
+---
+
+## Dataset Citation
+
+```bibtex
+@misc{kaggle_fairplay,
+author = {Behzad, Tina and Singh, Mithilesh Kumar and Ripa, Anthony J. and Mueller, Klaus},
+title = {FairPlay Dataset: Consensus-Driven Data Debiasing for Hiring Decisions},
+year = {2024},
+howpublished = {\url{https://github.com/mitsvision2/FairPlay-User-Study-Data}},
+note = {Accessed: 2024-12-18}
+}
+```
